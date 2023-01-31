@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice5Html</title>
+    
+    <style>
+    table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.total{
+  text-align: center;
+}
+.date{
+  font-weight: lighter;
+}
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Mon compte BNP</caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Libell&egrave;</th>
+            <th scope="col">Cr&egrave;dit</th>
+            <th scope="col">D&egrave;bit</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th class="date" scope="row">O1/05/2016</th>
+              <td>Paye</td>
+              <td>1500</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="date" scope="row">O1/05/2016</th>
+              <td>Courses de la semaine</td>
+              <td>0</td>
+              <td>152,30</td>
+            </tr>
+            <tr>
+              <th class="date" scope="row">O4/05/2016</th>
+              <td>Mc do</td>
+              <td>0</td>
+              <td>32,40</td>
+            </tr>
+            <tr>
+              <th class="date" scope="row">05/05/2016</th>
+              <td>Loyer</td>
+              <td>0</td>
+              <td>700</td>
+            </tr>
+            <tr>
+              <th class="date" scope="row">O5/05/2016</th>
+              <td>Internet</td>
+              <td>0</td>
+              <td>39,90</td>
+            </tr>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Soldes</th>
+                <td class="total" colspan="2">575,40</td>
+              </tr>
+            </tfoot>
+            </tbody>
+    </table>
+            
+</body>
+</html>
